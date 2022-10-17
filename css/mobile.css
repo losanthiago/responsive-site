@@ -1,0 +1,128 @@
+#navbar {
+  height: 220px;
+}
+
+#navbar-container {
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+#navbar-items {
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+#navbar-items li:nth-child() {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+/* buttons */
+
+.btn {
+  margin-top: 10px;
+}
+
+/* Showcase */
+
+#showcase-container {
+  padding: 20px;
+}
+
+/* Languages */
+
+#languages-container {
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+.languages {
+  width: 60%;
+}
+
+/* features */
+
+#features-container {
+  grid-template-columns: 1fr;
+}
+
+#features-container .features:nth-child(2) {
+  margin: 15px 0;
+}
+
+/* Product */
+
+#about-me-container {
+  flex-direction: column;
+}
+
+#items {
+  width: 90%;
+}
+
+.item {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-justify: inter-word;
+}
+
+/* Testimonials */
+
+#testimonials {
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Projects */
+
+#projects-container {
+  grid-template-columns: 1fr;
+}
+
+.projects-image {
+  width: 100%;
+}
+
+/* skill bar */
+
+#skill-container {
+  grid-column: 1fr;
+}
+
+.wrapper {
+  width: 100%;
+  min-width: 100px;
+}
+
+/* footer */
+
+#footer {
+  background: #222;
+  color: #eee;
+  justify-content: center;
+  width: 100%;
+  display: grid;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+footer#footer {
+  grid-template-columns: repeat(1fr);
+}
+
+.copy {
+  flex-direction: row;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.design {
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 5px;
+}

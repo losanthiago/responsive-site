@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border-radius: 2%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: rgb(241, 222, 111);
+}
+
+.padd-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.headline {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 50px;
+  letter-spacing: 2px;
+}
+
+/* Skills */
+
+.custom-modal {
+  width: 500px;
+  height: auto;
+  margin: 5% auto;
+  background: #222;
+  color: #eee;
+}
+
+#hidden-page {
+  width: 100%;
+  height: 100%;
+  margin: -5 auto;
+  background: #222;
+  color: #eee;
+}
+
+#features-container {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 50px;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  background: #333;
+  padding: 00px;
+  border-radius: 5px;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#skill-container {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+  margin: auto;
+  flex-direction: column;
+}
+.container {
+  width: 100%;
+  padding: 30px 30px 50px;
+  border: 2px solid rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+.container * {
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 253, 253);
+  font-weight: 500;
+}
+.skills:not(:last-child) {
+  margin-bottom: 30px;
+}
+.details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.bar {
+  border: 2px solid rgb(241, 222, 111);
+
+  border-radius: 20px;
+}
+.bar div {
+  width: 0;
+  height: 10px;
+  border-radius: 10px;
+  background-color: rgb(241, 222, 111);
+}
+#html-bar {
+  animation: html-fill 2s forwards;
+}
+@keyframes html-fill {
+  100% {
+    width: 80%;
+  }
+}
+#css-bar {
+  animation: css-fill 2s forwards;
+}
+@keyframes css-fill {
+  100% {
+    width: 75%;
+  }
+}
+#js-bar {
+  animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+  100% {
+    width: 72%;
+  }
+}
+#react-bar {
+  animation: react-fill 2s forwards;
+}
+@keyframes react-fill {
+  100% {
+    width: 68%;
+  }
+}
+#python-bar {
+  animation: python-fill 2s forwards;
+}
+@keyframes python-fill {
+  100% {
+    width: 80%;
+  }
+}
+#mysql-bar {
+  animation: mysql-fill 2s forwards;
+}
+@keyframes mysql-fill {
+  100% {
+    width: 75%;
+  }
+}
+#ts-bar {
+  animation: ts-fill 2s forwards;
+}
+@keyframes ts-fill {
+  100% {
+    width: 60%;
+  }
+}
+#cplus-bar {
+  animation: cplus-fill 2s forwards;
+}
+@keyframes cplus-fill {
+  100% {
+    width: 60%;
+  }
+}
+
+/* Languages */
+
+#languages {
+  width: 100%;
+  background: #222;
+  color: #eee;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+#languages-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+.languages {
+  display: inline-block;
+  width: 60%;
+  padding: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
